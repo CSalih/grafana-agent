@@ -22,6 +22,7 @@ import (
 	_ "github.com/grafana/agent/pkg/integrations/mongodb_exporter"       // register mongodb_exporter
 	_ "github.com/grafana/agent/pkg/integrations/mssql"                  // register mssql
 	_ "github.com/grafana/agent/pkg/integrations/mysqld_exporter"        // register mysqld_exporter
+	_ "github.com/grafana/agent/pkg/integrations/nginx_http"             // register nginx_http
 	_ "github.com/grafana/agent/pkg/integrations/node_exporter"          // register node_exporter
 	_ "github.com/grafana/agent/pkg/integrations/oracledb_exporter"      // register oracledb_exporter
 	_ "github.com/grafana/agent/pkg/integrations/postgres_exporter"      // register postgres_exporter

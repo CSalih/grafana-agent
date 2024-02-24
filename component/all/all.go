@@ -110,6 +110,7 @@ import (
 	_ "github.com/grafana/agent/component/prometheus/exporter/mongodb"              // Import prometheus.exporter.mongodb
 	_ "github.com/grafana/agent/component/prometheus/exporter/mssql"                // Import prometheus.exporter.mssql
 	_ "github.com/grafana/agent/component/prometheus/exporter/mysql"                // Import prometheus.exporter.mysql
+	_ "github.com/grafana/agent/component/prometheus/exporter/nginx"                // Import prometheus.exporter.nginx
 	_ "github.com/grafana/agent/component/prometheus/exporter/oracledb"             // Import prometheus.exporter.oracledb
 	_ "github.com/grafana/agent/component/prometheus/exporter/postgres"             // Import prometheus.exporter.postgres
 	_ "github.com/grafana/agent/component/prometheus/exporter/process"              // Import prometheus.exporter.process

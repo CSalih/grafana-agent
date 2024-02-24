@@ -10,6 +10,10 @@ internal API changes are not present.
 Main (unreleased)
 -----------------
 
+## Features
+
+- Introduce Nginx HTTP exporter integration for static and flow mode. (@CSalih)
+
 ### Bugfixes
 
 - Fix an issue where changing the configuration of `loki.write` would cause a panic. (@rfratto)
